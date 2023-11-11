@@ -1,0 +1,21 @@
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        String string = scanner.nextLine();
+        Scanner scanner1 = new Scanner(System.in);
+        String string1 = scanner1.nextLine();
+
+        if (scanner == scanner1) {
+            System.out.println(string + " is equal to " + string1);
+        } else {
+            System.out.println(string + " is not equal to " + string1);
+        }
+    }
+}
+
